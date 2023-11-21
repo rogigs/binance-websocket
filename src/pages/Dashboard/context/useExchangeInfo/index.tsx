@@ -1,6 +1,6 @@
 import React, { createContext, useContext, ReactNode, useReducer } from "react";
 import { reducer } from "./reducer";
-import { ACTION_TYPE, TAction } from "./actions";
+import { TAction } from "./actions";
 import { TExchangeInfo } from "../../types";
 
 type TSymbolContext = {
